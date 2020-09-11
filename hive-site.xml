@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+	<property>
+    <name>javax.jdo.option.ConnectionURL</name>
+    <value>jdbc:derby:${env.ROOT_PATH}/apache-hive-3.1.2-bin/metastore_db;databaseName=metastore_db;create=true</value>
+</property>
+ <property>
+  <name>hive.server2.enable.doAs</name>
+  <value>false</value> 
+  </property>
+</configuration>
